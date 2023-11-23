@@ -1,3 +1,8 @@
+# easy Dockerfile
+FROM nginx
+COPY index.html /usr/share/nginx/html
+
+
 # Use the official CentOS 7 base image
 FROM centos:centos7
 
